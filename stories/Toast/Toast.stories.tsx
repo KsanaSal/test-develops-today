@@ -13,24 +13,27 @@ type Story = StoryObj<typeof ToastProvider>;
 function Buttons() {
     const { showToast } = useToast();
 
-    return React.createElement(
-        "div",
-        { style: { padding: 20, display: "flex", gap: 10 } },
-        React.createElement(
-            "button",
-            { onClick: () => showToast("Information message", "info") },
-            "Info"
-        ),
-        React.createElement(
-            "button",
-            { onClick: () => showToast("Success message", "success") },
-            "Success"
-        ),
-        React.createElement(
-            "button",
-            { onClick: () => showToast("Error message", "error") },
-            "Error"
-        )
+    return (
+        <div style={{ padding: 20 }}>
+            <button
+                className="info-btn"
+                onClick={() => showToast("Information message", "info")}
+            >
+                Info
+            </button>
+            <button
+                className="success-btn"
+                onClick={() => showToast("Success message", "success")}
+            >
+                Success
+            </button>
+            <button
+                className="error-btn"
+                onClick={() => showToast("Error message", "error")}
+            >
+                Error
+            </button>
+        </div>
     );
 }
 
