@@ -17,6 +17,14 @@ export const Default: Story = {
     },
 };
 
+export const Text: Story = {
+    args: { label: "Name", placeholder: "Enter name" },
+};
+
+export const Password: Story = {
+    args: { label: "Password", type: "password", placeholder: "••••••" },
+};
+
 export const Clearable: Story = {
     args: {
         label: "Email",
