@@ -35,9 +35,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## 🧱 UI Component Library
+# 🧱 UI Component Library
 
-# Examples input
+## Examples input
 
 ![Input default](./stories/assets/screenshots/input/input-default.png)
 
@@ -45,7 +45,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ![Input state 2](./stories/assets/screenshots/input/input-state-2.png)
 
-# Examples toast
+## Examples toast
 
 ![Toast info](./stories/assets/screenshots/toast/toast-info.png)
 
@@ -53,7 +53,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ![Toast error](./stories/assets/screenshots/toast/toast-error.png)
 
-# Examples sidebar
+## Examples sidebar
 
 ![sidebar state 1](./stories/assets/screenshots/sidebar/sidebar-state-1.png)
 
