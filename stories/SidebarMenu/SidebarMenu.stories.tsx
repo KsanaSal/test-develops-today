@@ -36,7 +36,9 @@ export const Example = () => {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <button onClick={() => setOpen(true)}>Open Sidebar</button>
+            <button className="open-btn" onClick={() => setOpen(true)}>
+                Open Sidebar
+            </button>
             <SidebarMenu
                 open={open}
                 onClose={() => setOpen(false)}

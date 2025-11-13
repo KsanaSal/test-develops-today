@@ -1,38 +1,37 @@
 .wrapper {
     display: block;
     font-family: system-ui, sans-serif;
-  }
-  .label {
+}
+.label {
     display: block;
     margin-bottom: 6px;
     color: #333;
     font-size: 14px;
-  }
-  .inputWrap {
+}
+.inputWrap {
     position: relative;
     display: flex;
     align-items: center;
-  }
-  .input {
+}
+.input {
     width: 100%;
     padding: 8px 36px 8px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0944b3;
     border-radius: 6px;
     font-size: 14px;
-  }
-  .iconBtn,
-  .clearBtn {
+}
+.iconBtn,
+.clearBtn {
     position: absolute;
     right: 8px;
     border: none;
     background: none;
     cursor: pointer;
     font-size: 14px;
-  }
-  .iconBtn {
+}
+.iconBtn {
     right: 32px;
-  }
-  .clearBtn {
-    color: #555;
-  }
-  
+}
+.clearBtn {
+    color: #ee6104;
+}

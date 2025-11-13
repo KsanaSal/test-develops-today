@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Input } from "./Input"; // шлях змінити під свій проект
+import { Input } from "./Input";
 
 const meta: Meta<typeof Input> = {
-    title: "Components/Input", // Назва секції в Storybook
-    component: Input, // Компонент, який показуємо
-    tags: ["autodocs"], // необов’язково, для авто-документації
+    title: "Components/Input",
+    component: Input,
+    tags: ["autodocs"],
 };
 
 export default meta;

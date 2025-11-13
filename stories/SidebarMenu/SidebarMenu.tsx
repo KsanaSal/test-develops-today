@@ -22,13 +22,15 @@ export const SidebarMenu: React.FC<SidebarMenuProps> = ({
     return (
         <>
             <div
-                className={`overlay, { [styles.show]: open`}
+                className={`overlay, ${open ? "show" : ""}`}
                 onClick={onClose}
             />
-            <aside className={`sidebar, { [styles.open]: open }`}>
+            <aside className={`sidebar, ${open ? "show" : ""}`}>
                 <div className="header">
-                    <strong>Menu</strong>
-                    <button onClick={onClose}>✕</button>
+                    <strong className="logo">Menu</strong>
+                    <button className="close-btn" onClick={onClose}>
+                        ✕
+                    </button>
                 </div>
                 <nav className="nav">
                     {items.map((item) => (
@@ -46,7 +48,10 @@ function MenuItemNode({ item }: { item: MenuItem }) {
     return (
         <div>
             <div className="item">
-                <button onClick={() => setExpanded((prev) => !prev)}>
+                <button
+                    className="menu-btn"
+                    onClick={() => setExpanded((prev) => !prev)}
+                >
                     {item.label}
                 </button>
                 {item.children && <span>{expanded ? "▾" : "▸"}</span>}
