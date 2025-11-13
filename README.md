@@ -53,7 +53,7 @@ Then open in the browser:
 
 ## 🧱 Структура проєкту
 
-{.
+<pre>```.
 ├── components/ # UI components
 │ ├── Button/
 │ ├── Input/
@@ -62,7 +62,7 @@ Then open in the browser:
 ├── pages/ # Next.js pages
 ├── public/ # Static resources
 ├── package.json
-└── README.md}
+└── README.md```</pre>
 
 # 🧱 UI Component Library
 
