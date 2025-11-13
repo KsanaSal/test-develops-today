@@ -66,24 +66,38 @@ Then open in the browser:
 
 # 🧱 UI Component Library
 
-## Examples input
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🧱 UI Component Library
+
+# Examples input
+
+Input default
 ![Input default](./stories/assets/screenshots/input/input-default.png)
 
+Input state 1
 ![Input state 1](./stories/assets/screenshots/input/input-state-1.png)
 
+Input state 2
 ![Input state 2](./stories/assets/screenshots/input/input-state-2.png)
 
 ## Examples toast
 
+Toast info
 ![Toast info](./stories/assets/screenshots/toast/toast-info.png)
 
+Toast success
 ![Toast success](./stories/assets/screenshots/toast/toast-success.png)
 
+Toast error
 ![Toast error](./stories/assets/screenshots/toast/toast-error.png)
 
 ## Examples sidebar
 
+Sidebar state 1
 ![sidebar state 1](./stories/assets/screenshots/sidebar/sidebar-state-1.png)
 
+Sidebar state 2
 ![sidebar state 2](./stories/assets/screenshots/sidebar/sidebar-state-2.png)
